@@ -24,7 +24,7 @@ const TrackDetail = ({ track }) => {
     description,
     thumbnail,
     author,
-    durationInSeconds,
+    length,
     modulesCount,
     modules,
     numberOfViews,
