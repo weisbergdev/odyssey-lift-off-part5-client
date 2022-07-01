@@ -29,7 +29,7 @@ const ModulesNav = ({ module, track }) => {
                   )}
                   <div>{navModule.title}</div>
                   <div>
-                    {humanReadableTimeFromSeconds(navModule.durationInSeconds)}
+                    {humanReadableTimeFromSeconds(navModule.length)}
                   </div>
                 </ModuleListItemContent>
               </ModuleNavStyledLink>
